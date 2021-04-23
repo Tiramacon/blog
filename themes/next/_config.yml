@@ -51,7 +51,7 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2020
 
   # Icon between year and copyright info.
   icon:
@@ -347,7 +347,7 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night eighties
   # Add copy button on codeblock
   copy_button:
     enable: false
@@ -807,7 +807,7 @@ mermaid:
 # For more information: http://velocityjs.org
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # Transition variants:
     # fadeIn | flipXIn | flipYIn | flipBounceXIn | flipBounceYIn
@@ -816,7 +816,7 @@ motion:
     # slideUpIn | slideDownIn | slideLeftIn | slideRightIn
     # slideUpBigIn | slideDownBigIn | slideLeftBigIn | slideRightBigIn
     # perspectiveUpIn | perspectiveDownIn | perspectiveLeftIn | perspectiveRightIn
-    post_block: fadeIn
+    post_block: flipXIn
     post_header: slideDownIn
     post_body: slideDownIn
     coll_header: slideLeftIn
