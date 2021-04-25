@@ -10,6 +10,8 @@ tags:
 - [配置 github ssh key](#配置-github-ssh-key)
 - [解决 ssh: connect to host github com port 22: timed out](#解决-ssh-connect-to-host-github-com-port-22-timed-out)
 
+<!-- more -->
+
 ## 配置 github ssh key
 
 使用 Git Bash 生成 ssh key
